@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "yum": {
+      "locked_version": "2.3.0"
+    },
+    "postgresql": {
+      "locked_version": "3.0.2"
+    },
+    "apt": {
+      "locked_version": "2.0.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "openssl": {
+      "locked_version": "1.0.2"
+    }
+  }
+}

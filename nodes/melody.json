@@ -1,1 +1,8 @@
-{"run_list":["yum::epel","postgresql"]}
+{
+   "postgresql": {
+       "password": {
+         "postgres": "iloverandompasswordsbutthiswilldo"
+     }
+   },
+   "run_list":["yum::epel","recipe[postgresql::server]"]
+ }
